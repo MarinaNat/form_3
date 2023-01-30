@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма по макету №1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="conteiner">
+    <form class="conteiner-form form" action="#">
+      <h2 class="form__title form-title">ОСТАВИТЬ ЗАЯВКУ</h2>
+      <div class="form__item">
+        <label class="form__subtitle">Имя</label>
+        <input
+          tabindex="1"
+          class="form-input"
+          type="text"
+          name="username"
+          value=""
+        />
+      </div>
+      <div class="form__item">
+        <label class="form__subtitle">Телефон</label>
+        <input
+          tabindex="2"
+          class="form-input"
+          type="tel"
+          name="usertel"
+          value=""
+        />
+      </div>
+      <div class="form__item form__item_text form-text">
+        <label class="form__subtitle form-text__subtitle">
+          Оставьте сообщение, и мы свяжемся с Вами в ближайшее время
+        </label>
+        <textarea
+          tabindex="3"
+          class="form-input form-text__input"
+          name="text"
+        ></textarea>
+      </div>
+      <div class="form-button">
+        <button class="button">ОТПРАВИТЬ</button>
+      </div>
+    </form>
+  </body>
+</html>
